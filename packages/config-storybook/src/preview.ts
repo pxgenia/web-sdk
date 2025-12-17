@@ -1,5 +1,5 @@
 import type { Preview } from '@storybook/svelte';
-import { INITIAL_VIEWPORTS } from 'storybook/viewport';
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 
 const preview: Preview = {
 	parameters: {
